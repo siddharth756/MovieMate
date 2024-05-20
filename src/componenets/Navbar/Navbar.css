@@ -1,0 +1,61 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    border: 1px solid #e6e6e6;
+}
+
+.navbar>h1 {
+    font-size: 30px;
+    color: #ffe400;
+}
+
+.navbar_links>a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    padding: 0 15px;
+}
+
+@media screen and (max-width: 725px) {
+    .navbar {
+        padding: 0 20px;
+    }
+
+    .navbar>h1 {
+        font-size: 25px;
+    }
+
+    .navbar_links>a {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        padding: 0 10px;
+    }
+
+    .navbar>h1 {
+        font-size: 20px;
+    }
+
+    .navbar_links>a {
+        font-size: 15px;
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 485px) {
+    .navbar {
+        height: 70px;
+    }
+   .navbar>h1 {
+       font-size: 16px;
+   }
+    .navbar_links>a {
+        font-size: 11px;
+    }
+}
