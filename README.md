@@ -7,6 +7,4 @@
 <img src="https://github.com/siddharth756/MovieMate/blob/main/assets/images/Movie-Mate.png" alt="MovieMate Image">
 <hr>
 
-<br>
-
 `` Made with 💙 By Siddharth.``
